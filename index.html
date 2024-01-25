@@ -487,7 +487,7 @@
             <a class="link logo footer__logo" href="./index.html">
               Web<span class="footer__logo--color">Studio</span>
             </a>
-            <p class="text footer__text">
+            <p class="text footer__text footer__text--width">
               Increase the flow of customers and sales for your business with
               digital marketing & growth solutions.
             </p>
@@ -526,30 +526,31 @@
             </ul>
           </div>
           <div class="footer__column">
-            <form name="footer-form" class="footer__column">
-              <label
-                class="text footer__text footer__text--weight footer-label"
-              >
-                Subscribe
-                <div class="footer-form-container">
-                  <input
-                    type="email"
-                    class="footer-input"
-                    name="email"
-                    placeholder="E-mail"
-                  />
-                  <button type="submit" class="button footer-button">
-                    Subscribe
-                    <svg class="footer-form-icon" width="24" height="24">
-                      <use href="./images/icons.svg#telegram"></use>
-                    </svg>
-                  </button>
-                </div>
+            <p class="text footer__text footer__text--weight">Subscribe</p>
+            <form class="footer-form" name="footer-form">
+              <label class="footer-form-label">
+                <input
+                  class="footer-form-input"
+                  type="email"
+                  name="footer-email"
+                  placeholder="E-mail"
+                />
               </label>
+              <button class="footer-form-btn" type="button">
+                Subscribe
+                <svg
+                  class="footer__icon footer-form-icon"
+                  width="24"
+                  height="24"
+                >
+                  <use href="./images/icons.svg#telegram"></use>
+                </svg>
+              </button>
             </form>
           </div>
         </div>
       </footer>
+
       <div class="form__container">
         <form class="form" name="main-form" action="">
           <button type="button" class="form-btn-close">
