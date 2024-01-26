@@ -51,11 +51,6 @@ fieldset {
   margin: 0;
   border: none;
 }
-.page__container {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
 .container {
   max-width: 1158px;
   padding: 0 15px;
@@ -131,7 +126,7 @@ fieldset {
   background-color: #404bbf;
 }
 
-.page__container .visually-hidden {
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -214,7 +209,6 @@ fieldset {
 /*-------- main --------*/
 
 .main {
-  flex-grow: 1;
 }
 
 /*-------- section-1 --------*/
@@ -517,7 +511,7 @@ fieldset {
 
 /*-------- form --------*/
 
-.page__container .is-open {
+div.is-open {
   visibility: visible;
 }
 .form-container {
